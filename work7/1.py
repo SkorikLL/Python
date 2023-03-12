@@ -5,7 +5,7 @@ def countVowels(text):
     for i in range(len(text)):
         res = list(text[i])
         for i in range(len(res)):
-            if res[i] == "а" or res[i] == "о" or res[i] == "о" or res[i] == "о" or res[i] == "о" or res[i] == "о":
+            if res[i] == "а" or res[i] == "о" or res[i] == "и" or res[i] == "ы" or res[i] == "у" or res[i] == "э" or res[i] == "я" or res[i] == "ю" or res[i] == "ё":
                 count +=1 
         vowels.append(count)
         count = 0   
